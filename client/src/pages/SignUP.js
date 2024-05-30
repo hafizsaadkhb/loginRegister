@@ -7,7 +7,7 @@ function SignUp() {
     console.log("Form values submitted:", values);
 
     try {
-      const response = await axios.post('http://localhost:5000/register', values, {
+      const response = await axios.post('https://login-register-au26.vercel.app/register', values, {
         // withCredentials: true // Include credentials (cookies) with the request
       });
 
