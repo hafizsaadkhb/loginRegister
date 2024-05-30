@@ -31,7 +31,7 @@ try{
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:3000', // Replace with your React app's URL
+    origin: 'https://login-register-silk.vercel.app', // Replace with your React app's URL
     methods: ['GET', 'POST'],
     credentials: true
 }));
